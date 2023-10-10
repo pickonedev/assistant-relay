@@ -95,7 +95,7 @@ binary_sensor:
     id: pir
     filters:
       - delayed_on: 50ms
-      - delayed_off: 2s
+      - delayed_off: 30s
     device_class: motion
     on_press:
       then:
